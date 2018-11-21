@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/env bash
 # script to provide info about installed packages
 echo "All Packages: $(pacman -Q | wc -l)" & PIDA=$!
 echo "Explicitly Installed: $(pacman -Qe | wc -l)" & PIDE=$!
